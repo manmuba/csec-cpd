@@ -1,6 +1,7 @@
 class Solution:
     def maxArea(self, height):
         max_area = 0
+
         l = 0
         r = len(height) - 1
         while l < r:
